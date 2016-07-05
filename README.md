@@ -18,7 +18,7 @@
 
 ## Getting Started ##
 
-1. **Clone latest version**
+**1. Clone latest version**
 
 
 ```
@@ -30,18 +30,25 @@ git clone -o api-starterkit -b master --single-branch \
 cd MyApp
 ```
 
-2. **Run npm install**
+**2. Run npm install**
 
 This will install both run-time project dependencies and developer tools listed in package.json file.
 
-3. **Run npm start**
+**3. Run npm start**
 
 This will run expressJS on port 3000
 
-4. **Run npm run test**
+## How to Test ##
 
-This will run all test cases in test/ directory
+`npm run test`
 
-5. **Run npm run lint**
+## How to Update ##
 
-This will run coffeelint on all directories except directories specified on .coffeelintignore
+```
+#!javascript
+
+$ git checkout master
+$ git fetch api-starterkit
+$ git merge api-starterkit/master
+$ npm install
+```
