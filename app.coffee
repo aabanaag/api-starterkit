@@ -2,6 +2,8 @@ express = require 'express'
 path = require 'path'
 logger = require 'morgan'
 cookieParser = require 'cookie-parser'
+lusca = require 'lusca'
+helmet = require 'helmet'
 cors = require 'cors'
 db = require './config/database'
 
@@ -10,9 +12,23 @@ app = express()
 app.use logger 'dev'
 app.use express.json()
 app.use cookieParser()
-app.use express.urlenconded =
-                      extended: false
+app.use express.urlenconded(extended: false)
+app.use lusca(
+  csrf: true
+  csp: {}
+  xframe: 'SAMEORIGIN'
+  p3p: 'ABCDEF'
+  hsts:
+    maxAge: 31536000
+    includeSubDomains: true
+    preload: true
+  xssProtection: true
+  nosniff: true
+)
 
+app.use helmet.iexss()
+app.use helmet.contentTypeOptions()
+app.use helmet.cacheControl()
 
 app.use cors()
 app.use (req, res, next) ->
