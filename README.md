@@ -1,5 +1,4 @@
 # API Starter Kit #
---------------------
 
 > Starter kit for API project(s) intended for Allstar-Interactive projects
 
