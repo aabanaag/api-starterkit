@@ -16,6 +16,10 @@
 
 * git clone `https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git`
 
-* `npm install`
+* run `npm install`
 
-* `npm start`
+* start api by running `npm start`
+
+* run test `npm run test`
+
+* run lint `npm run lint`
