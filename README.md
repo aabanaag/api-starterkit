@@ -2,6 +2,9 @@
 
 > Starter kit for API project(s) intended for Allstar-Interactive projects
 
+![node](https://img.shields.io/badge/node-6.2.2-green.svg)
+![npm](https://img.shields.io/badge/npm-3.8.9-blue.svg)
+
 ## Tech Stack ##
 
 * [ExpressJS](http://expressjs.com/) - is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
