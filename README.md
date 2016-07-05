@@ -11,3 +11,18 @@
 * [Lusca](https://github.com/krakenjs/lusca) - Application security for express apps.
 * [Helmet](https://github.com/helmetjs/helmet) - Help secure Express apps with various HTTP headers
 * [Bluebird](http://bluebirdjs.com/docs/getting-started.html) - Promises
+
+## Getting Started ##
+
+1. clone repo 
+```
+#!shellscript
+
+https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git
+```
+2. 
+```
+#!shellscript
+
+npm install
+```
