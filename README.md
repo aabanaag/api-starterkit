@@ -14,8 +14,8 @@
 
 ## Getting Started ##
 
-git clone `https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git`
+* git clone `https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git`
 
-`npm install`
+* `npm install`
 
-`npm start`
+* `npm start`
