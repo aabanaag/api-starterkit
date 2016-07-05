@@ -18,12 +18,30 @@
 
 ## Getting Started ##
 
-* git clone `https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git`
+1. **Clone latest version**
 
-* run `npm install`
 
-* start api by running `npm start`
+```
+#!javascript
 
-* run test `npm run test`
+git clone -o api-starterkit -b master --single-branch \
+      https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git MyApp
 
-* run lint `npm run lint`
+cd MyApp
+```
+
+2. **Run npm install**
+
+This will install both run-time project dependencies and developer tools listed in package.json file.
+
+3. **Run npm start**
+
+This will run expressJS on port 3000
+
+4. **Run npm run test**
+
+This will run all test cases in test/ directory
+
+5. **Run npm run lint**
+
+This will run coffeelint on all directories except directories specified on .coffeelintignore
