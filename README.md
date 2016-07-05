@@ -14,15 +14,8 @@
 
 ## Getting Started ##
 
-1. clone repo 
-```
-#!shellscript
+git clone `https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git`
 
-https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git
-```
-2. 
-```
-#!shellscript
+`npm install`
 
-npm install
-```
+`npm start`
