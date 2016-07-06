@@ -1,26 +1,32 @@
 {
   "name": "api-starterkit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
-    "start": "DEBUG=api-starterkit:* nodemon ./bin/www -e coffee",
+    "start": "nodemon ./bin/www -e coffee",
     "test": "NODE_ENV=test seed && NODE_ENV=test mocha -R spec test/api --compilers coffee:coffee-script/register",
-    "lint": "coffeelint . -f coffeelint.json"
+    "lint": "coffeelint . -f coffeelint.json",
+    "debug": "node-debug ./bin/www -e coffee"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
     "cookie-parser": "~1.4.3",
     "cors": "^2.7.1",
-    "debug": "~2.2.0",
+    "debug": "^2.2.0",
     "dotenv": "^2.0.0",
     "express": "~4.13.4",
     "helmet": "^2.1.1",
     "lusca": "^1.4.1",
+    "mongoose": "^4.5.3",
     "morgan": "~1.7.0",
     "nodemon": "^1.9.2"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",
+    "jade": "^1.11.0",
     "mocha": "^2.5.3",
+    "node-debug": "^0.1.0",
+    "q": "^1.4.1",
     "should": "^9.0.2",
     "supertest": "^1.2.0"
   }
