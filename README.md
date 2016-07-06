@@ -25,7 +25,7 @@
 #!javascript
 
 git clone -o api-starterkit -b master --single-branch \
-      https://aabanaag@bitbucket.org/allstar_interactive/api-boilerplate.git MyApp
+      ssh://git@192.168.236.101:7999/sk/api-starterkit.git MyApp
 
 cd MyApp
 ```
