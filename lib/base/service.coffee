@@ -14,7 +14,7 @@ class BaseService
       .catch (err) ->
         deferred.reject(err)
 
-    deferred.promise()
+    deferred.promise
 
   findOne: (id) ->
     deferred = Promise.defer()
@@ -25,18 +25,18 @@ class BaseService
       .catch (err) ->
         deferred.reject(err)
 
-    deferred.promise()
+    deferred.promise
 
   findAll: ->
     deferred = Promise.defer()
 
-    @model.findAll {}
+    @model.find {}
       .then (res) ->
         deferred.resolve(res)
       .catch (err) ->
         deferred.reject(err)
 
-    deferred.promise()
+    deferred.promise
 
   update: (id, params) ->
     deferred = Promise.defer()
@@ -50,7 +50,7 @@ class BaseService
       .catch (err) ->
         deferred.reject(err)
 
-    deferred.promise()
+    deferred.promise
 
   delete: (id) ->
     deferred = Promise.defer()
@@ -61,7 +61,7 @@ class BaseService
       .catch (err) ->
         deferred.reject(err)
     
-    deferred.promise()
+    deferred.promise
 
 
 module.exports = BaseService
