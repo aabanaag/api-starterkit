@@ -42,6 +42,10 @@ This will run expressJS on port 3000
 
 `npm run test`
 
+## How to Debug ##
+
+`npm run debug`
+
 ## How to Update ##
 
 ```
