@@ -9,7 +9,7 @@ mongoose.connection.on 'error', (err) ->
   console.log "Mongoose connection error: #{err}"
 
 mongoose.connection.on 'connect', ->
-  mongoose.Promise = require 'bluebird'
+  mongoose.Promise = require 'q'
 
 models = glob.sync "#{config.root}/api/models/*.coffee"
 models.forEach (model) ->
