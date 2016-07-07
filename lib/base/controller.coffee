@@ -1,4 +1,4 @@
-Router = require('express').Router()
+Router = require('express')
 
 class BaseController
   constructor: (service) ->
@@ -46,7 +46,7 @@ class BaseController
         response.status(404).json(error: 'Not Found')
 
   routes: ->
-    router = Router
+    router = new Router()
 
     router.get '/', (req, response) =>
       @
@@ -77,5 +77,7 @@ class BaseController
         .delete(req, response)
         .then (res) ->
           res
+
+    router
 
 module.exports = BaseController
