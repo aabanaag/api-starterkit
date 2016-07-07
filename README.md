@@ -4,7 +4,7 @@
 
 ![node](https://img.shields.io/badge/node-6.2.2-green.svg)
 ![npm](https://img.shields.io/badge/npm-3.8.9-blue.svg)
-![version](https://img.shields.io/badge/version-0.1.2-brightgreen.svg)
+![version](https://img.shields.io/badge/version-0.1.3-brightgreen.svg)
 
 ## Tech Stack ##
 
