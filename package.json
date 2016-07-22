@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www -e coffee",
-    "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec test/api/* --compilers coffee:coffee-script/register",
+    "test": "NODE_ENV=test seed && NODE_ENV=test ./node_modules/.bin/mocha -R spec test/api/* --compilers coffee:coffee-script/register",
     "lint": "coffeelint . -f coffeelint.json",
-    "debug": "node-debug ./bin/www -e coffee"
+    "debug": "node-debug ./bin/www -e coffee",
+    "seed": "NODE_ENV=development seed"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -26,6 +27,7 @@
     "jade": "^1.11.0",
     "mocha": "^2.5.3",
     "node-debug": "^0.1.0",
+    "node-mongo-seeds": "^2.3.0",
     "q": "^1.4.1",
     "should": "^9.0.2",
     "supertest": "^1.2.0"
