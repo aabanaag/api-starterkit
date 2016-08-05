@@ -4,7 +4,7 @@
 
 ![node](https://img.shields.io/badge/node-6.2.2-green.svg)
 ![npm](https://img.shields.io/badge/npm-3.8.9-blue.svg)
-![version](https://img.shields.io/badge/version-0.2.0-brightgreen.svg)
+![version](https://img.shields.io/badge/version-0.2.2-brightgreen.svg)
 
 ## Tech Stack ##
 
@@ -38,6 +38,8 @@ This will install both run-time project dependencies and developer tools listed 
 **3. Run npm start**
 
 This will run expressJS on port 3000
+
+Specify port run `PORT=8080 npm start`
 
 ## How to Test ##
 
