@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo "[development-mode] Running Order and Subscription API"
+echo "[development-mode] Running Starter KIT"
 npm run start:dev
