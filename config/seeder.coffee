@@ -8,7 +8,6 @@ module.exports =  ->
   seeder.seed(data, {dropCollections: true})
     .then (dbData) ->
       console.log 'Seeding database successful!!!'.underline.green
-      console.log 'Waiting for change(s)...'
     .catch (err) ->
       console.log err.underline.green
 
