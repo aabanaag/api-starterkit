@@ -1,6 +1,6 @@
 {
   "name": "api-starterkit",
-  "version": "0.2.2",
+  "version": "0.3.4",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www -e coffee",
@@ -10,26 +10,26 @@
   },
   "dependencies": {
     "body-parser": "^1.15.2",
-    "colors": "^1.1.2",
     "cookie-parser": "~1.4.3",
     "cors": "^2.7.1",
     "debug": "^2.2.0",
     "express": "~4.13.4",
     "lusca": "^1.4.1",
     "mongoose": "^4.5.3",
-    "mongoose-validator": "^1.2.5",
     "morgan": "~1.7.0",
-    "nodemon": "^1.9.2"
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "mocha": "^2.5.3",
     "coffee-script": "^1.10.0",
     "express-session": "^1.14.0",
-    "mocha": "^2.5.3",
+    "mongoose-validator": "^1.2.5",
     "mongoose-seeder": "^1.2.1",
     "node-inspector": "^0.12.8",
-    "q": "^1.4.1",
+    "nodemon": "^1.9.2",
     "supertest": "^1.2.0",
-    "supertest-as-promised": "^4.0.0"
+    "supertest-as-promised": "^4.0.0",
+    "colors": "^1.1.2"
   }
 }
