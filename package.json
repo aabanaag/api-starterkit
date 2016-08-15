@@ -14,9 +14,7 @@
     "cookie-parser": "~1.4.3",
     "cors": "^2.7.1",
     "debug": "^2.2.0",
-    "dotenv": "^2.0.0",
     "express": "~4.13.4",
-    "helmet": "^2.1.1",
     "lusca": "^1.4.1",
     "mongoose": "^4.5.3",
     "mongoose-validator": "^1.2.5",
@@ -26,12 +24,11 @@
   "devDependencies": {
     "coffee-script": "^1.10.0",
     "express-session": "^1.14.0",
-    "jade": "^1.11.0",
     "mocha": "^2.5.3",
     "mongoose-seeder": "^1.2.1",
     "node-inspector": "^0.12.8",
     "q": "^1.4.1",
-    "should": "^9.0.2",
-    "supertest": "^1.2.0"
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^4.0.0"
   }
 }
