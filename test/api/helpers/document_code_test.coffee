@@ -9,3 +9,6 @@ describe 'DocumentCode', ->
   it 'should generate random code', ->
     expect(documentCodeHelper('SO')).to.be
       .not.equal(documentCodeHelper('SO'))
+
+  it 'should generate random code without prefix', ->
+    expect(documentCodeHelper()).to.not.match /-/
