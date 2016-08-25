@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "[production-mode] Running Starter KIT"
-npm run start:prod
+PORT=3000 NODE_ENV=production ./bin/www -e coffee
