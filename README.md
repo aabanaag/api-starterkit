@@ -5,18 +5,18 @@
 
 > API starter-kit for ASI projects
 
-# TECH
+### TECH
 * [ExpressJS](http://expressjs.com/) - is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 * [MongoDB](https://www.mongodb.com/) - is a giant leap forward that helps organizations standardize on a single, modern database for their new, mission-critical applications.
 * [Mongoose](http://mongoosejs.com/) - elegant mongodb object modeling for node.js
 * [CoffeeScript](http://coffeescript.org/) - is a little language that compiles into JavaScript. Underneath that awkward Java-esque patina, JavaScript has always had a gorgeous heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
-* [Mocha](https://mochajs.org/) - Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
+* [Mocha](https://mochajs.org/) - is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.
 * [Supertest-as-Promised](https://github.com/WhoopInc/supertest-as-promised) - Supercharged supertest with a promise interface
 * [Mongoose-Seeder](https://github.com/SamVerschueren/mongoose-seeder) - MongoDB seeder
 * [Lusca](https://github.com/krakenjs/lusca) - Application security for express apps.
 * [Q](http://documentup.com/kriskowal/q/) - Promise Library
 
-# SCRIPTS
+### SCRIPTS
 #### Default
 > Executes API under specific port and under development environment. Also including nodemon for development purposes
 ```sh
