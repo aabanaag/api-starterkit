@@ -17,33 +17,33 @@
 * [Q](http://documentup.com/kriskowal/q/) - Promise Library
 
 # SCRIPTS
-### DEFAULT
+#### Default
 > Executes API under specific port and under development environment. Also including nodemon for development purposes
 ```sh
 npm start
 ```
-### DEBUG
+#### Debug
 > Executes API under specific port and under development environment. Also including node-debug for debugging purposes
 ```sh
 npm run debug
 ```
-### DEVELOPMENT
+#### Development
 > Executes API under specific port and under development environment. Also including nodemon for development purposes
 ```sh
 npm run start:dev
 ```
-### PRODUCTION
+#### Production
 > Executes API under specific port and under production environment. Without the use of nodemon for production purposes
 ```sh
 npm run start:prod
 ```
-### TESTING
+#### Testing
 > Executes MochaJS unit-test
 ```sh
 npm test | npm run test
-````
-### LINTING
+```
+#### Linting
 > Executes ESLint for code verification
 ```sh
 npm run lint
-````
+```
