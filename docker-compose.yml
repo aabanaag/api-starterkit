@@ -6,9 +6,18 @@ services:
       - ./:/api
     ports:
       - "3000:3000"
-    links:
+    depends_on:
       - mongo
+    networks:
+      - all
+    environment:
+      MONGODB_URI: "mongodb://mongo:27017"
   mongo:
     image: mongo
+    command: mongod --smallfiles
     ports:
       - "27017:27017"
+    networks:
+      - all
+networks:
+  all:
