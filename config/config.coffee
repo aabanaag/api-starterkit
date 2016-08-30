@@ -1,7 +1,8 @@
 path = require 'path'
+dotenv = require('dotenv').load(path:'.env')
 rootPath = path.normalize __dirname + '/..'
 
 module.exports =
   root: rootPath
   getHostURI: (env) ->
-    "mongodb://localhost:27017/appName-#{env}"
+    "#{process.env.MONGODB_URI}/appName-#{env}"
