@@ -1,7 +1,7 @@
 # API
 ![node](https://img.shields.io/badge/node-6.2.2-green.svg)
 ![npm](https://img.shields.io/badge/npm-3.8.9-blue.svg)
-![version](https://img.shields.io/badge/version-0.3.5-brightgreen.svg)
+![version](https://img.shields.io/badge/version-0.4.0-brightgreen.svg)
 
 > API starter-kit for ASI projects
 
@@ -15,6 +15,7 @@
 * [Mongoose-Seeder](https://github.com/SamVerschueren/mongoose-seeder) - MongoDB seeder
 * [Lusca](https://github.com/krakenjs/lusca) - Application security for express apps.
 * [Q](http://documentup.com/kriskowal/q/) - Promise Library
+* [Docker](https://www.docker.com/) - is the world's leading software containerization platform
 
 ### SCRIPTS
 #### Default
@@ -46,4 +47,10 @@ npm test | npm run test
 > Executes ESLint for code verification
 ```sh
 npm run lint
+```
+### DOCKER
+#### Compose
+> Executes Docker compose. please refer to `docker-compose.yml`
+```sh
+docker-compose up
 ```
