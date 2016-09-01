@@ -6,3 +6,11 @@ module.exports =
   root: rootPath
   getHostURI: (env) ->
     "#{process.env.MONGODB_URI}/appName-#{env}"
+  session:
+    secret: 'abc'
+    resave: true
+    saveUninitialized: true
+  lusca:
+    xframe: 'DENY'
+    xssProtection: true
+    nosniff: true
